@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/reset.css" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link rel="stylesheet" href="assets/styles/custom.css" />
+    <title>Tugas 1 : Novan</title>
+  </head>
+
+  <body>
+    <p>
+      <script src="assets/js/functions.js"></script>
+    </p>
+    <div class="wrapper">
+      <nav class="menu">
+        <button aria-expanded="false" aria-controls="menu-list">
+          <span class="open">☰</span>
+          <span class="close">×</span>
+          Menu
+        </button>
+        <ul id="menu-list">
+          <li>
+            <a href="">Sego</a>
+          </li>
+          <li>
+            <a href="">Wedang Adem</a>
+          </li>
+          <li>
+            <a href="">Wedang Anget</a>
+          </li>
+          <li>
+            <a href="">Jajan</a>
+          </li>
+          <li>
+            <a href="">Pesen</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="top">
+        <header class="hero">
+          <h1>Muwangan Enak, Halal lan Sehat</h1>
+          <p class="hilite">paling top sak jogja</p>
+        </header>
+        <div class="cta cta1">
+          <p class="price">Rp 10rb</p>
+          <p class="wow hilite">Lawuh</p>
+        </div>
+        <div class="cta cta2">
+          <p class="price">Rp 15rb</p>
+          <p>Sego2an</p>
+        </div>
+      </div>
+
+      <section class="features">
+        <div class="feature">
+          <span class="icon">🌮</span>
+          <h3>Sego</h3>
+          <p>Sego keju enak rasane</p>
+        </div>
+        <div class="feature">
+          <span class="icon">🍺</span>
+          <h3>Wedang Adem</h3>
+          <p>Wedang adem, nggawe ati adem</p>
+        </div>
+        <div class="feature">
+          <span class="icon">🍷</span>
+          <h3>Wedang Anget</h3>
+          <p>Anget poll kanggo sapaduluran</p>
+        </div>
+        <div class="feature">
+          <span class="icon">🎵</span>
+          <h3>Hiburan</h3>
+          <p>Selingan hiburan live musik</p>
+        </div>
+      </section>
+
+      <section class="about">
+        <img src="assets/images/queso-taco.png" alt="Yummy Taco" class="about__mockup" />
+        <div class="about__details">
+          <h2>Sego Keju Buah</h2>
+          <p>Tipis, enak, campur iwak endog, halal dan sehat.</p>
+          <p>Panganan iki ngenteni sampean order. Yuk cepetan.</p>
+          <button>Eruh luwih akeh →</button>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <h2>Instant Grams</h2>
+      </section>
+    </div>
+
+    <script>
+      const navButton = document.querySelector("button[aria-expanded]");
+
+      function toggleNav({ target }) {
+        const expanded = target.getAttribute("aria-expanded") === "true" || false;
+        navButton.setAttribute("aria-expanded", !expanded);
+      }
+
+      navButton.addEventListener("click", toggleNav);
+    </script>
+  </body>
+</html>

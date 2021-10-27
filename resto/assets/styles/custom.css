@@ -1,0 +1,33 @@
+body {
+    background-color: #808080;
+    background-image: none;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    /*color: green;*/
+  }
+
+  p {
+    /*color: blue;*/
+  }
+
+  .hilite {
+    /*color: white;*/
+  }
+
+  .wow {
+    /*font-size: 100px;*/
+  }
+
+  /*Tampilan Mobile*/
+  @media only screen and (max-width: 600px) {
+    .hero {
+     /* background: none; */
+    }
+    
+  }
