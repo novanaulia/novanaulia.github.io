@@ -263,6 +263,7 @@ h6 {
   background: url("/assets/img/novan-aulia-rohman-hero.JPG") top right no-repeat;
   background-size: cover;
   position: relative;
+  margin-top: 100px;
 }
 @media (min-width: 992px) {
   #hero {
