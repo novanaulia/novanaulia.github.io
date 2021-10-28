@@ -1,6 +1,7 @@
 /* ALERT */
 //alert("Hello, world!");
 
+/*
 let nama_depan = "novan";
 let nama_belakang = "aulia";
 
@@ -14,11 +15,15 @@ let total = barang * jumlah;
 
 //alert("Total Barang " + total);
 
+*/
+
 /* KONSTANTA */
+/*
 const negara = "indonesia";
 const database = "jwp";
 
 console.log("Total barang via konsol = " + total);
+*/
 
 //document.write(total);
 
@@ -58,7 +63,7 @@ function greeting() {
 }
 greeting();
 
-*/
+
 
 function login(username, password) {
   if (username && password) {
@@ -86,7 +91,11 @@ a = 10;
 t = 20;
 luas_segitiga(a, t);
 
+*/
+
 /* STRUKTUR DATA */
 
+/*
 let fruits = ["Apple", "Orange", "Plum"];
 document.write(fruits[2]);
+*/
